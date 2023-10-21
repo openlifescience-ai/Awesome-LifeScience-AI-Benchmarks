@@ -1,0 +1,72 @@
+[
+    {
+        "id": "image_generation",
+        "name": "Image Generation",
+        "group_name": "med_express",
+        "description": {
+            "homepage": "google.com",
+            "repository": "github.com",
+            "paper": "arxvi.com",
+            "leaderboard": "sample.com",
+            "point_of_contact": "name - email"
+        },
+        "tasks": ["PET Scan Analysis", "X-ray Analysis", "CT Scan Analysis"],
+        "modalities": ["images"],
+        "datasets": [
+            {
+                "name": "datasets 1",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            },
+            {
+                "name": "datasets 2",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            }
+        ],
+        "image": "img_gen.png",
+        "files": [
+            "data1.csv",
+            "data2.csv"
+        ],
+        "source": {
+            "name": "Huggingface",
+            "url": "https://huggingface.co/openai/whisper-large-v2"
+        },
+        "license": "BSL-1.0"
+    },
+    {
+        "id": "question_answering",
+        "name": "Question Answering",
+        "description": {
+            "homepage": "google.com",
+            "repository": "github.com",
+            "paper": "arxvi.com",
+            "leaderboard": "sample.com",
+            "point_of_contact": "name - email"
+        },
+        "tasks": ["Lab Test Result Interpretation"],
+        "modalities": ["texts"],
+        "datasets": [
+            {
+                "name": "datasets 1",
+                "url": "https://huggingface.co/datasets/bigcode/the-stacks"
+            },
+            {
+                "name": "datasets 2",
+                "url": "https://huggingface.co/datasets/bigcode/the-stacks"
+            },
+            {
+                "name": "datasets 3",
+                "url": "https://huggingface.co/datasets/bigcode/the-stacks"
+            },
+            {
+                "name": "datasets 4",
+                "url": "https://huggingface.co/datasets/bigcode/the-stacks"
+            }
+        ],
+        "source": {
+            "name": "Kaggle",
+            "url": "https://www.kaggle.com/models/tatsu-lab/alpaca"
+        },
+        "license": "APSL-2.0"
+    }
+]
